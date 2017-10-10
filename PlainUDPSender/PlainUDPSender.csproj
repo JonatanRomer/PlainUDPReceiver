@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AA7D24AD-625B-4AB4-B821-95A1B74A6027}</ProjectGuid>
+    <ProjectGuid>{25DAF522-CD14-4E73-86CA-552ABA0266F7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PlainUDPReceiver</RootNamespace>
-    <AssemblyName>PlainUDPReceiver</AssemblyName>
+    <RootNamespace>PlainUDPSender</RootNamespace>
+    <AssemblyName>PlainUDPSender</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UDPReceiver.cs" />
+    <Compile Include="UDPSender.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
